@@ -1,45 +1,45 @@
-.homepage-Header, .homepage-Main {
+.homepage-Header, .homepage-Main, .homepage-IMG {
     margin: 10px 10px 10px 10px;
 }
 
 /* 
-    <div>
-    <header className='homepage-Header'>
-    <h1 className='homepage-H1'>Welcome to Petful</h1>
-    <h2 className='homepage-H2'>Your pet is excited to meet you!</h2>
-    </header>
+<div>
+<header className='homepage-Header'>
+<h1 className='homepage-H1'>Welcome to Petful</h1>
+<h2 className='homepage-H2'>Your pet is excited to meet you!</h2>
+</header>
 
-    <main className='homepage-Main'>
-      <img></img>
+<main className='homepage-Main'>
 
-      <p>
-        Here at Petful, our adoption process works on a "First-In, First-Out" basis. It's a philosophy we've developed with our local animal rescues to ensure that every cat and dog gets a loving "FURever" home.
-      </p>
+<img className='homepage-IMG' alt='SOME CUTE CATS AND DOGS' src=''></img>
 
-      <p>So what are you waiting for...?</p> 
-      <p>Fill out the form below...</p>
+<p>
+Here at Petful, our adoption process works on a "First-In, First-Out" basis. It's a philosophy we've developed with our local animal rescues to ensure that every cat and dog gets a loving "FURever" home.
+</p>
 
-      <form className='homepage-AdoptForm'>
-        <legend>Let's get YOU a new furry friend!</legend>
+<p>So what are you waiting for...?</p> 
+<p>Fill out the form below...</p>
 
-        <label htmlFor='name'>What's your name?</label>
-        <input type='type' id='name' name='name' required />
+<form className='homepage-AdoptForm'>
+<legend>Let's get YOU a new furry friend!</legend>
 
-        <p>Are you looking to adopt:</p>
-        <label htmlFor='cat'>
-          <input type='radio' id='cat' value='cats' name='pet' required />
-          Cat
-        </label>
+<label htmlFor='name'>What's your name?</label>
+<input type='type' id='name' name='name' required />
 
-        <label htmlFor='cat'>
-          <input id='dog' value='dogs' name='pet' required />
-          Dog
-        </label>
+<p>Are you looking to adopt:</p>
+<label htmlFor='cat'>
+<input type='radio' id='cat' value='cats' name='pet' required />
+Cat
+</label>
 
-        <button className='button' >Let's Find That Pet!!!</button>
-      </form>
-      
-    </main>
+<label htmlFor='cat'>
+<input type='radio' id='dog' value='dogs' name='pet' required />
+Dog
+</label>
 
-  </div> 
+<button className='button' type='submit'>Let's Find That Pet!!!</button>
+</form>
+
+</main>
+</div>
   */

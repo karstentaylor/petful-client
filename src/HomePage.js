@@ -5,12 +5,13 @@ function HomePage() {
   return(
     <div>
       <header className='homepage-Header'>
-      <h1 className='homepage-H1'>Welcome to Petful</h1>
-      <h2 className='homepage-H2'>Your pet is excited to meet you!</h2>
+        <h1 className='homepage-H1'>Welcome to Petful</h1>
+        <h2 className='homepage-H2'>Your pet is excited to meet you!</h2>
       </header>
 
       <main className='homepage-Main'>
-        <img></img>
+
+        <img className='homepage-IMG' alt='SOME CUTE CATS AND DOGS' src=''></img>
 
         <p>
           Here at Petful, our adoption process works on a "First-In, First-Out" basis. It's a philosophy we've developed with our local animal rescues to ensure that every cat and dog gets a loving "FURever" home.
@@ -40,7 +41,6 @@ function HomePage() {
         </form>
         
       </main>
-
     </div>
   );
 }
