@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import HomePage from './HomePage';
-import AdoptionPage from './AdoptionPage';
+import HomePage from '../HomePage/HomePage';
+import AdoptionPage from '../AdoptionPage/AdoptionPage';
 
 
 class App extends React.Component {
@@ -13,7 +13,7 @@ class App extends React.Component {
 
     render() {
         return(
-            <div className='App'>
+            <div className='app'>
 
                 <Route exact path='/' component={HomePage} />
                 <Route path='/adopt' component={AdoptionPage} />
