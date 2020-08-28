@@ -1,5 +1,5 @@
 import React from 'react';
-//import './AdoptionPage.css';
+import './AdoptionPage.css';
 
 class AdoptionPage extends React.Component {
 
@@ -65,10 +65,3 @@ class AdoptionPage extends React.Component {
 }
 
 export default AdoptionPage;
-
-
-/*
-import AdoptionPet from './AdoptionPet';
-import PetThumbnail from './PetThumbnail';
-
-*/

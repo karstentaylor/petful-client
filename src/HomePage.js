@@ -46,10 +46,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-/*
-
-USER STORY #1: HOMEPAGE
-* I see a meaningful picture related to the description.
-
-*/
