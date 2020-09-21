@@ -1,4 +1,4 @@
-# Petful Server
+# Petful Client
 
 ## App Name:
 "Homeward Bound" 
@@ -22,6 +22,10 @@ James Coffelt
 "Homeward Bound" is our version of The Petful Project, a fullstack web-development project that is created around the principal of "FIFO"... first-in, first-out.
 
 Whereby a user submits their name into a queue via the submission form on the homepage. When called to the "no. 1 spot", the user is given a message indicating their turn to "adopt" a fictional cat or dog from the available choices on the adoption page.
+
+*"Here at "Homeward Bound", our adoption process works on a "FIFO" ("First-In, First-Out") basis. It's a philosophy we've developed with our local animal rescues to ensure that every cat and dog gets a loving "FURever" home.*
+*So what are YOU waiting for...?*
+*ENTER your name and CLICK the button below to JOIN our waiting list. Then once your name is pulled to the "#1 spot", you can ADOPT one of the pets in the available list."*
 
 
 ## Technology Stack Used
