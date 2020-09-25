@@ -2,48 +2,32 @@ import React from 'react';
 
 import PeopleQueue from './PeopleQueue';
 
-import DogsQueue from  './DogsQueue';
+import DogsQueue from './DogsQueue';
 import CatsQueue from './CatsQueue';
 
 import '../src/index.css';
 
-
 function AdoptionPage(props) {
+	return (
+		<div className="adoptionPage">
+			<header className="adoptionHeader">
+				<h1 className="adoptionPageH1">Paws Welfare League</h1>
+				<h2 className="adoptionPageH2">Your new pet is excited to meet you!</h2>
+			</header>
 
-    return(
-        <div className='adoptionPage'>
+			<div>
+				<PeopleQueue queue={props.queue} adopt={props.adopt} />
 
-            <header 
-                className='adoptionHeader'
-            >
-                <h1 className='adoptionPageH1'>
-                    Homeward Bound
-                </h1>
-                <h2 className='adoptionPageH2'>
-                    Your pet is excited to meet you!
-                </h2>
-            </header>
-            
+				<div>
+					<h2 className="secTitle">Ready for Adoption</h2>
 
-            <div>
-                <PeopleQueue 
-                    queue={props.queue} 
-                    adopt={props.adopt} 
-                />
+					<DogsQueue adopt={props.adopt} />
 
-                <div>
-                    <h2 className='secTitle'>
-                        Ready for Adoption
-                    </h2>
-                    
-                    <DogsQueue adopt={props.adopt} />
-
-                    <CatsQueue adopt={props.adopt} />
-                </div>
-            </div>
-
-        </div>
-    );
+					<CatsQueue adopt={props.adopt} />
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default AdoptionPage;
