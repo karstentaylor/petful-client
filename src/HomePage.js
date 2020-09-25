@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-
+import CatDog from './images/cat&dog.jpg';
 import ApiServices from './ApiServices';
 
 import '../src/index.css';
@@ -59,11 +59,7 @@ function HomePage(props) {
 				</form>
 			</main>
 
-			<img
-				className="homepageIMG"
-				alt="DOG"
-				src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg"
-			/>
+			<img className="homepageIMG" alt="CATDOG" src={CatDog} />
 		</div>
 	);
 }
