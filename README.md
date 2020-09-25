@@ -7,30 +7,25 @@
 
 ## Live App link:
 
-https://dsa-petful-client-james.vercel.app/
+https://dsa-petful-client-green.vercel.app
 
 ## Client Repo:
 
-https://github.com/thinkful-ei-panda/DSA_Petful_Client-chrissy-james
+https://github.com/karstentaylor/petful-client.git
 
 ## API Server Repo:
 
-https://github.com/thinkful-ei-panda/DSA_Petful_Server-chrissy-james
-
-## Pair Contributors:
-
-Chrissy Harmon,
-James Coffelt
+https://github.com/karstentaylor/petful-server.git
 
 ## What is Paws Welfare League (a Petful Project)?
 
-"Paws Welfare League" is our version of The Petful Project, a fullstack web-development project that is created around the principal of "FIFO"... first-in, first-out.
+"Paws Welfare League" is a version of The Petful Project, a fullstack web-development project that is created around the principal of "FIFO"... first-in, first-out.
 
-Whereby a user submits their name into a queue via the submission form on the homepage. When called to the "no. 1 spot", the user is given a message indicating their turn to "adopt" a fictional cat or dog from the available choices on the adoption page.
+Where a user submits their name into a queue via the submission form on the homepage. When called to the "no. 1 spot", the user is given a message indicating their turn to "adopt" a fictional cat or dog from the available choices on the adoption page.
 
-_"Here at "Paws Welfare League", our adoption process works on a "FIFO" ("First-In, First-Out") basis. It's a philosophy we've developed with our local animal rescues to ensure that every cat and dog gets a loving "FURever" home._
+_"Here at "Paws Welfare League", the adoption process works on a "FIFO" ("First-In, First-Out") basis. It's a philosophy that was developed with local animal rescues to ensure that every cat and dog gets a loving home._
 _So what are YOU waiting for...?_
-_ENTER your name and CLICK the button below to JOIN our waiting list. Then once your name is pulled to the "#1 spot", you can ADOPT one of the pets in the available list."_
+_ENTER your name and CLICK the button below to JOIN the waiting list. Then once your name is pulled to the "#1 spot", you can ADOPT one of the pets in the available list."_
 
 ## Technology Stack Used
 
