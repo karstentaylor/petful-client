@@ -7,20 +7,15 @@
 
 ## Live App link:
 
-https://dsa-petful-client-james.vercel.app/
+https://dsa-petful-client-green.vercel.app
 
 ## Client Repo:
 
-https://github.com/thinkful-ei-panda/DSA_Petful_Client-chrissy-james
+https://github.com/karstentaylor/petful-client.git
 
 ## API Server Repo:
 
-https://github.com/thinkful-ei-panda/DSA_Petful_Server-chrissy-james
-
-## Pair Contributors:
-
-Chrissy Harmon,
-James Coffelt
+https://github.com/karstentaylor/petful-server.git
 
 ## What is Paws Welfare League (a Petful Project)?
 
